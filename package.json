@@ -1,0 +1,33 @@
+{
+  "name": "microauth",
+  "version": "0.0.1",
+  "description": "A microservice that performs third party authentication and runs on Node.js",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertFischer/microauth.git"
+  },
+  "keywords": [
+    "microservice",
+    "nodejs",
+    "passport",
+    "passportjs",
+    "node"
+  ],
+  "author": "Robert Fischer",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/RobertFischer/microauth/issues"
+  },
+  "homepage": "https://github.com/RobertFischer/microauth#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "passport": "^0.3.2",
+    "redis": "^2.6.5",
+    "rest": "^2.0.0",
+    "ursa": "^0.9.4"
+  }
+}
